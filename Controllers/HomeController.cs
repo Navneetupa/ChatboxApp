@@ -8,5 +8,10 @@ namespace ChatboxApp.Controllers
         {
             return View();
         }
+
+        public IActionResult Landing()
+        {
+            return View();
+        }
     }
 }

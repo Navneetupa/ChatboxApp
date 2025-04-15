@@ -1,4 +1,6 @@
-@model ChatboxApp.Models.User
+<script src="~/site.js"></script>
+
+@model ChatboxApp.Models.LoginViewModel
 @{
     ViewData["Title"] = "Login";
 }
@@ -106,5 +108,3 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
-
-
